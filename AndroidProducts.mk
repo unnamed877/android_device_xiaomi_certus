@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_certus.mk
+    $(LOCAL_DIR)/bootleg_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_certus-user \
-    rr_certus-userdebug \
-    rr_certus-eng
+    bootleg_certus-user \
+    bootleg_certus-userdebug \
+    bootleg_certus-eng
