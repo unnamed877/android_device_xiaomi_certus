@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_certus.mk
+    $(LOCAL_DIR)/du_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_certus-user \
-    komodo_certus-userdebug \
-    komodo_certus-eng
+    du_certus-user \
+    du_certus-userdebug \
+    du_certus-eng
