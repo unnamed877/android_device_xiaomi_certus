@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_certus.mk
+    $(LOCAL_DIR)/aosp_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_certus-user \
-    du_certus-userdebug \
-    du_certus-eng
+    aosp_certus-user \
+    aosp_certus-userdebug \
+    aosp_certus-eng
