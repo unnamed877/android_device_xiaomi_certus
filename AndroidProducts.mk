@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_certus.mk
+    $(LOCAL_DIR)/cesium_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_certus-user \
-    aosp_certus-userdebug \
-    aosp_certus-eng
+    cesium_certus-user \
+    cesium_certus-userdebug \
+    cesium_certus-eng
