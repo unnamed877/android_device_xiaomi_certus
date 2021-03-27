@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_certus.mk
+    $(LOCAL_DIR)/aosp_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_certus-user \
-    fluid_certus-userdebug \
-    fluid_certus-eng
+    aosp_certus-user \
+    aosp_certus-userdebug \
+    aosp_certus-eng
