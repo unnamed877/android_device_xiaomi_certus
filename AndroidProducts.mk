@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_certus.mk
+    $(LOCAL_DIR)/pixys_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_certus-user \
-    aosp_certus-userdebug \
-    aosp_certus-eng
+    pixys_certus-user \
+    pixys_certus-userdebug \
+    pixys_certus-eng
