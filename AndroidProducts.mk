@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_certus.mk
+    $(LOCAL_DIR)/nitrogen_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_certus-user \
-    fluid_certus-userdebug \
-    fluid_certus-eng
+    nitrogen_certus-user \
+    nitrogen_certus-userdebug \
+    nitrogen_certus-eng
