@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_certus.mk
+    $(LOCAL_DIR)/aosp_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_certus-user \
-    bliss_certus-userdebug \
-    bliss_certus-eng
+    aosp_certus-user \
+    aosp_certus-userdebug \
+    aosp_certus-eng
