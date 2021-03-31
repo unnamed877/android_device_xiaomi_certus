@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/certus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/nitrogen/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
