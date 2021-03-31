@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_certus.mk
+    $(LOCAL_DIR)/nitrogen_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_certus-user \
-    aosp_certus-userdebug \
-    aosp_certus-eng
+    nitrogen_certus-user \
+    nitrogen_certus-userdebug \
+    nitrogen_certus-eng
