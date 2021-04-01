@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_certus.mk
+    $(LOCAL_DIR)/exthm_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_certus-user \
-    cesium_certus-userdebug \
-    cesium_certus-eng
+    exthm_certus-user \
+    exthm_certus-userdebug \
+    exthm_certus-eng
