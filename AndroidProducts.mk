@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_certus.mk
+    $(LOCAL_DIR)/fluid_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_certus-user \
-    exthm_certus-userdebug \
-    exthm_certus-eng
+    fluid_certus-user \
+    fluid_certus-userdebug \
+    fluid_certus-eng
