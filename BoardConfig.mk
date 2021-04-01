@@ -57,6 +57,10 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
 TARGET_KERNEL_CONFIG := wulan17_defconfig
 
+# Kernel toolchains
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-none-linux-gnueabihf-
+KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-none-linux-gnueabihf-9.2/bin
+
 # Lineage hardware
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
