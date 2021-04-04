@@ -84,10 +84,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/interfaces.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/interfaces.xml \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.fingerprint.xml
 
-# Privapp-permissions whitelist for PhhTrebleApp
-PRODUCT_COPY_FILES += \
-       $(LOCAL_PATH)/permissions/privapp-permissions-me.phh.treble.app.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.treble.app.xml
-
 # RCS
 PRODUCT_PACKAGES += \
     RcsService
@@ -108,8 +104,7 @@ PRODUCT_PACKAGES += \
 
 # ImsInit hack
 PRODUCT_PACKAGES += \
-    ImsInit \
-    TrebleApp
+    ImsInit
 
 # Trust HAL
 PRODUCT_PACKAGES += \
