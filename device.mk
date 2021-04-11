@@ -108,8 +108,7 @@ PRODUCT_PACKAGES += \
 
 # ImsInit hack
 PRODUCT_PACKAGES += \
-    ImsInit \
-    TrebleApp
+    ImsInit
 
 # Trust HAL
 PRODUCT_PACKAGES += \
