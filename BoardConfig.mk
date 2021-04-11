@@ -52,10 +52,11 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x11b00000 --second_offset 0x00f00000 --tags_offset 0x07880000
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
+TARGET_PREBUILT_KERNEL := device/xiaomi/certus/kernel/zImage-dtb
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
-TARGET_KERNEL_CONFIG := wulan17_defconfig
+#TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
+#TARGET_KERNEL_CONFIG := wulan17_defconfig
 
 # Kernel toolchains
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-none-linux-gnueabihf-
